@@ -50,5 +50,3 @@ print(data)
 a1 = Account()
 a1.loadInfo(data)
 a1.printInfo()
-
-blah
