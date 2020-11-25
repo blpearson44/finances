@@ -7,7 +7,6 @@ class Account:
         self.accountType = accountType
         self.date = date
         self.balance = balance
-        # self.age = date.today() - date
 
     def getAge(self):
         return date.today() - self.date
@@ -25,7 +24,6 @@ class Account:
         self.accountType = info['accountType']
         self.date = date(info['date'][0], info['date'][1], info['date'][2])
         self.balance = info['balance']
-        #self.age = date.today() - info['date']
 
 
 def transform(object):
