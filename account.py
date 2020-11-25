@@ -2,24 +2,23 @@ from datetime import timedelta, date
 import json
 
 
-class Index:
-    pass
-
-
 class Account:
     def __init__(self, name="Default", accountType="Default", date=date(1, 1, 1), balance=0):
         self.name = name
         self.accountType = accountType
         self.date = date
         self.balance = balance
-        self.age = date.today() - date
+        # self.age = date.today() - date
+
+    def getAge(self):
+        return date.today() - self.date
 
     def printInfo(self):
         print("Account:\t " + str(self.name))
         print("Type:\t\t " + str(self.accountType))
         print("Date Created:\t", self.date.strftime("%m/%d/%Y"))
-        print("Age:\t\t", int(self.age.total_seconds()/3600/24/365),
-              "years", int(self.age.total_seconds()/3600/24 % 365), "days")
+        print("Age:\t\t", int(self.getAge().total_seconds()/3600/24/365),
+              "years", int(self.getAge().total_seconds()/3600/24 % 365), "days")
         print("Balance:\t " + str(self.balance))
 
     def loadInfo(self, info):
@@ -31,22 +30,22 @@ class Account:
 
 
 def transform(object):
-    if isinstance(object, Account) or isinstance(object, Index):
+    if isinstance(object, Account):
         return object.__dict__
-    if isinstance(object, date) or isinstance(object, timedelta):
-        return object.__repr__()
+    if isinstance(object, date):
+        return (object.day, object.month, object.year)
     else:
-        raise TypeError("Only Index and Accounts can be serialized.")
+        raise TypeError("Only Index and Account can be serialized.")
 
 
 wf = Account("Wells Fargo", "Checking", date(2012, 8, 20), 1000)
 with open("data1.json", "w") as f:
     json.dump(wf, f, default=transform)
 
-with open("data1.json", "r") as f:
-    data = json.load(f)
+# with open("data1.json", "r") as f:
+#     data = json.load(f)
 
-print(data)
-a1 = Account()
-a1.loadInfo(data)
-a1.printInfo()
+# print(data)
+# a1 = Account()
+# a1.loadInfo(data)
+# a1.printInfo()

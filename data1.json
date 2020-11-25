@@ -1,1 +1,1 @@
-{"name": "Wells Fargo", "accountType": "Checking", "date": "datetime.date(2012, 8, 20)", "balance": 1000, "age": "datetime.timedelta(days=3018)"}
+{"name": "Wells Fargo", "accountType": "Checking", "date": [20, 8, 2012], "balance": 1000}
