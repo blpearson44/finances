@@ -1,5 +1,4 @@
 from datetime import timedelta, date
-import json
 
 
 class Account:
@@ -24,7 +23,7 @@ class Account:
     def loadInfo(self, info):
         self.name = info['name']
         self.accountType = info['accountType']
-        self.date = info['date']
+        self.date = date(info['date'][0], info['date'][1], info['date'][2])
         self.balance = info['balance']
         #self.age = date.today() - info['date']
 
@@ -33,19 +32,6 @@ def transform(object):
     if isinstance(object, Account):
         return object.__dict__
     if isinstance(object, date):
-        return (object.day, object.month, object.year)
+        return (object.year, object.month, object.day)
     else:
         raise TypeError("Only Index and Account can be serialized.")
-
-
-wf = Account("Wells Fargo", "Checking", date(2012, 8, 20), 1000)
-with open("data1.json", "w") as f:
-    json.dump(wf, f, default=transform)
-
-# with open("data1.json", "r") as f:
-#     data = json.load(f)
-
-# print(data)
-# a1 = Account()
-# a1.loadInfo(data)
-# a1.printInfo()
