@@ -1,14 +1,14 @@
 import account
 import json
 
-wf = account.Account("Wells Fargo", "Checking",
-                     account.date(2012, 8, 20), 1000)
-with open("data1.json", "w") as f:
-    json.dump(wf, f, default=account.transform)
-
+# load contents of json file
+imported = {}
 with open("data1.json", "r") as f:
-    data = json.load(f)
-
-a1 = account.Account()
-a1.loadInfo(data)
-a1.printInfo()
+    accounts = json.load(f)
+# instantiate contents as account objects
+for key, value in accounts.items():
+    imported[key] = account.Account(
+        accounts[key]['name'], accounts[key]['accountType'], account.date(accounts[key]['date'][0], accounts[key]['date'][1], accounts[key]['date'][2]), accounts[key]['balance'])
+# Save contents of account objects to json file
+with open("data1.json", "w") as f:
+    json.dump(accounts, f, default=account.transform)
