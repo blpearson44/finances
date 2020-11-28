@@ -1,5 +1,8 @@
 from datetime import timedelta, date
 
+# create class to store data from accounts
+# playing with how to update the balance
+
 
 class Account:
     def __init__(self, name="Default", accountType="Default", date=date(1, 1, 1), balance=0):
@@ -9,6 +12,7 @@ class Account:
         self.balance = balance
 
     def getAge(self):
+        # age is probably more important than the creation date
         return date.today() - self.date
 
     def printInfo(self):

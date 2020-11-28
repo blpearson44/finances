@@ -1,3 +1,6 @@
+# playing with how to convert the dates from csv into the python date format
+# I think it is probably just going to be equal to the delta of some date in the
+# past and a current date
 class Transaction:
     def __init__(self, account=None, date=None, amount=None, category=None):
         self.account = account

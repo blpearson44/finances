@@ -27,12 +27,16 @@ with open(filename, "r") as csvfile:
     for row in csvreader:
         rows.append([float(row[0]), float(row[4]), row[2], row[3]])
 
+# move transactions into local list
 print(fields)
 for x in rows:
     trans = transaction.Transaction(x[2], x[0], x[1], x[3])
     transactions.append(trans)
 
+# this is to test that the transactions are in the list properly
 for x in transactions:
-    x.printInfo()  # Save contents of account objects to json file
+    x.printInfo()
+
+# Save contents of account objects to json file
 with open("data1.json", "w") as f:
     json.dump(accounts, f, default=account.transform)
