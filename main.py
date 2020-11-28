@@ -25,15 +25,14 @@ with open(filename, "r") as csvfile:
     csvreader = csv.reader(csvfile)
     fields = next(csvreader)
     for row in csvreader:
-        rows.append(row)
-        # rows.append(transaction.Transaction(
-        #     row['Card'], row['Date'], row['Amount'], row['Category']))
+        rows.append([float(row[0]), float(row[4]), row[2], row[3]])
+
 print(fields)
 for x in rows:
-    trans = transaction.Transaction(x[2], x[0], x[4], x[3])
+    trans = transaction.Transaction(x[2], x[0], x[1], x[3])
     transactions.append(trans)
 
-print(transactions)
-# Save contents of account objects to json file
+for x in transactions:
+    x.printInfo()  # Save contents of account objects to json file
 with open("data1.json", "w") as f:
     json.dump(accounts, f, default=account.transform)

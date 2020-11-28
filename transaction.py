@@ -4,3 +4,7 @@ class Transaction:
         self.date = date
         self.amount = amount
         self.category = category
+
+    def printInfo(self):
+        print(self.account + "\t" + str(self.date) + "\t" +
+              str(self.amount) + "\t" + self.category)
