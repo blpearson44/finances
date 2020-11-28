@@ -1,0 +1,207 @@
+Date,Item,Card,Category,Amount
+43886,Costco,Wells Fargo College Card,Food,3.78
+43887,Prime,Wells Fargo College Card,Recurring Payment,7.07
+43888,PB,Apple Card,Misc,773.68
+43889,Bytes,Apple Card,Food,10.8
+43889,Elements,Apple Card,Food,6.92
+43889,Fast Food,Apple Card,Food,14.7
+43890,Archies,Apple Card,Food,14.3
+43890,Coffee,Apple Card,Food,11.24
+43891,Rush Shirts,Apple Card,Misc,40
+43891,Dues,Apple Card,Recreation,100
+43891,Rent,Apple Card,Rent,525
+43892,Car Wash,Apple Card,Car,8
+43892,Fast Food,Apple Card,Food,6.27
+43893,Gas,Wells Fargo College Card,Car,18.18
+43893,Elements,Apple Card,Food,6.92
+43893,Costco,Wells Fargo College Card,Food,3.78
+43895,Pizza Poetico,Apple Card,Food,11.1
+43895,Costco,Wells Fargo College Card,Food,3.78
+43896,Bytes,Apple Card,Food,11.44
+43896,Fast Food,Apple Card,Food,10.5
+43898,Chinese Food,Apple Card,Food,42.19
+43899,Spotify,Apple Card,Recurring Payment,4.99
+43900,ABB,Apple Card,Food,3.56
+43900,Elements,Apple Card,Food,6.92
+43901,Costco,Wells Fargo College Card,Food,1.62
+43901,Bytes,Apple Card,Food,7.99
+43901,iCloud,Apple Card,Recurring Payment,0.99
+43902,Soho,Apple Card,Food,12.67
+43902,Snacks,Apple Card,Food,6.19
+43903,Big Ed's Alley Inn,Apple Card,Food,12
+43903,Fast Food,Apple Card,Food,11.07
+43904,Movies,Apple Card,Out,23.1
+43906,Video Game,Apple Card,Recreation,9.99
+43908,Video Game,Apple Card,Recreation,59.99
+43912,Chegg,Wells Fargo College Card,School,14.95
+43913,AAA,Apple Card,Car,52.01
+43916,Video Game,Apple Card,Recreation,5.99
+43916,Prime,Wells Fargo College Card,Recurring Payment,7.07
+43922,Fast Food,Apple Card,Food,46.42
+43924,Textbook,Apple Card,School,59.94
+43930,Dues,Apple Card,Recreation,100
+43930,Rent,Apple Card,Rent,525
+43930,Spotify,Apple Card,Utility,4.99
+43932,iCloud,Apple Card,Recurring Payment,0.99
+43935,Safeway,Apple Card,Food,16.73
+43939,Valleys,Apple Card,Out,48.12
+43942,AAA,Apple Card,Car,52.01
+43943,Chegg,Wells Fargo College Card,School,14.95
+43947,Prime,Wells Fargo College Card,Recurring Payment,7.07
+43951,Video Game,Apple Card,Recreation,29.99
+43953,Amazon,Apple Card,Utility,21.79
+43953,Apple,Apple Card,Utility,140.61
+43955,Rent,Apple Card,Rent,425
+43956,Apple,Apple Card,Utility,129
+43956,Apple,Apple Card,Utility,874.91
+43960,Spotify,Apple Card,Recurring Payment,4.99
+43962,iCloud,Apple Card,Recurring Payment,0.99
+43963,Good Notes,Apple Card,School,7.99
+43966,Computer Case,Apple Card,Recreation,67.84
+43972,AAA,Apple Card,Car,52.01
+43972,Safeway,Apple Card,Food,62.81
+43973,Chegg,Wells Fargo College Card,School,14.95
+43974,Video Game,Apple Card,Recreation,39.99
+43976,Amazon,Apple Card,Utility,32.68
+43977,AAA,Apple Card,Car,-19.6
+43977,Refund Adjustment,Apple Card,Car,0.2
+43977,Prime,Wells Fargo College Card,Recurring Payment,7.07
+43981,Fast Food,Apple Card,Food,17.21
+43988,Rent,Apple Card,Rent,215
+43991,Burma,Wells Fargo College Card,Food,124.92
+43991,Spotify,Apple Card,Recurring Payment,9.99
+43993,iCloud,Apple Card,Recurring Payment,0.99
+43993,Application,Wells Fargo College Card,Utility,69.99
+43997,Application,Apple Card,Utility,19.99
+43999,Video Game,Apple Card,Recreation,14.99
+44000,Amazon,Apple Card,Gift,87.29
+44001,Amazon,Apple Card,Gift,86.05
+44001,Application,Apple Card,Utility,19.98
+44003,AAA,Apple Card,Car,52.01
+44004,Chegg,Wells Fargo College Card,School,14.95
+44007,Car Battery,Wells Fargo College Card,Car,253.35
+44008,Prime,Wells Fargo College Card,Recurring Payment,7.07
+44012,Video Game,Apple Card,Recreation,2.49
+44014,Video Game,Apple Card,Recreation,43.6
+44017,Rent,Apple Card,Rent,400
+44017,Application,Apple Card,Utility,49.99
+44023,Computer Parts,Discover Card,Recreation,495.91
+44021,Spotify,Apple Card,Recurring Payment,4.99
+44023,iCloud,Apple Card,Recurring Payment,0.99
+44024,Application,Apple Card,Utility,19.99
+44026,Computer Parts,Apple Card,Recreation,256.54
+44027,Computer Parts,Apple Card,Recreation,14.16
+44031,Video Game,Apple Card,Recreation,79.98
+44033,AAA,Apple Card,Car,60.01
+44038,Amazon,Apple Card,School,149.68
+44045,Walmart,Apple Card,Food,47.68
+44045,Fast Food,Apple Card,Food,17.07
+44047,Rent,Apple Card,Rent,575
+44047,Dues,Apple Card,Recreation,280
+44050,Fast Food,Apple Card,Food,12.95
+44051,Amazon,Apple Card,Utility,9.52
+44052,Spotify,Apple Card,Recurring Payment,4.99
+44052,Video Game,Apple Card,Recreation,8.99
+44053,Video Game,Apple Card,Recreation,19.99
+44054,Amazon,Apple Card,Utility,10.82
+44054,AAA,Apple Card,Car,-10
+44054,iCloud,Apple Card,Recurring Payment,0.99
+44058,Amazon,Apple Card,School,38.96
+44058,Amazon,Apple Card,Utility,6.42
+44059,Target,Apple Card,Food,28.31
+44064,AAA,Apple Card,Car,60.01
+44066,Amazon,Apple Card,Utility,13.23
+44067,Wiley,Apple Card,School,69
+44068,Uber,Apple Card,Car,10.39
+44068,Auto Repair,Apple Card,Car,500
+44072,Fast Food,Apple Card,Food,9.68
+44072,Food,Apple Card,Food,12.4
+44073,Fast Food,Apple Card,Food,8.57
+44075,Food,Apple Card,Food,17.45
+44080,Rent,Apple Card,Rent,493.74
+44082,Archies,Apple Card,Food,13.37
+44083,Spotify,Apple Card,Recurring Payment,4.99
+44085,iCloud,Apple Card,Recurring Payment,0.99
+44085,Archies,Apple Card,Food,14.68
+44087,Archies,Apple Card,Food,16.54
+44089,Fast Food,Apple Card,Food,7.35
+44089,Archies,Apple Card,Food,8.04
+44090,Fast Food,Apple Card,Food,8.53
+44092,Video Game,Apple Card,Recreation,64.95
+44092,Archies,Apple Card,Food,12.01
+44093,Video Game,Apple Card,Recreation,9.98
+44093,Food,Apple Card,Food,37.37
+44094,Walmart,Apple Card,Food,44.16
+44095,AAA,Apple Card,Car,60.01
+44095,Fast Food,Apple Card,Food,7.35
+44095,Amazon,Apple Card,School,83.66
+44096,Amazon,Apple Card,Utility,70.78
+44096,Rick's,Apple Card,Food,22.41
+44096,Video Game,Apple Card,Recreation,23.99
+44098,Fast Food,Apple Card,Food,8.44
+44099,Rick's,Apple Card,Food,21
+44098,Gas,Apple Card,Car,15.54
+44100,Food,Apple Card,Food,15.34
+44101,Walmart,Apple Card,Food,19.31
+44101,Fast Food,Apple Card,Food,12.95
+44102,Fast Food,Apple Card,Food,8.23
+44103,Archies,Apple Card,Food,17.62
+44104,Valleys,Apple Card,Recreation,18.98
+44104,Fast Food,Apple Card,Food,24.63
+44105,Rick's,Apple Card,Food,21.29
+44106,Fast Food,Apple Card,Food,15.14
+44107,Fast Food,Apple Card,Food,8.31
+44109,Fast Food,Apple Card,Food,8.23
+44109,Amazon,Apple Card,School,54.12
+44109,Joes Dues,Apple Card,Misc,300
+44109,Rent,Apple Card,Rent,575
+44113,Spotify,Apple Card,Recurring Payment,4.99
+44115,iCloud,Apple Card,Recurring Payment,0.99
+44116,Food,Apple Card,Food,4.6
+44117,Food,Apple Card,Food,11.46
+44118,Fast Food,Apple Card,Food,7.87
+44119,Fast Food,Apple Card,Food,4.32
+44120,Food,Apple Card,Food,21.63
+44121,Food,Apple Card,Food,14.5
+44124,Dutch,Apple Card,Food,8.75
+44125,AAA,Apple Card,Car,60.01
+44126,Application,Apple Card,Utility,8.99
+44126,Food,Apple Card,Food,18.47
+44127,Archies,Apple Card,Food,9.58
+44128,Rick's,Apple Card,Food,19.74
+44130,Dutch,Apple Card,Food,8
+44132,Fast Food,Apple Card,Food,12
+11260,Fast Food,Apple Card,Food,10.5
+44135,Food,Apple Card,Food,17.86
+44135,Valleys,Apple Card,Recreation,45.24
+44135,Food,Apple Card,Food,5.4
+44075,Food,Apple Card,Food,24.8
+N/A,Correction,Apple Card,N/A,41.79
+44038,Prime,Wells Fargo College Card,Recurring Payment,7.07
+44047,Amazon,Wells Fargo College Card,Utility,285.12
+44051,Amazon,Wells Fargo College Card,Utility,62.77
+44052,Costco,Wells Fargo College Card,Food,136.28
+44053,Amazon,Wells Fargo College Card,Utility,208.24
+44066,Costco,Wells Fargo College Card,Food,83.16
+44066,Chegg,Wells Fargo College Card,Recurring Payment,14.95
+44069,Prime,Wells Fargo College Card,Recurring Payment,7.07
+44081,Costco,Wells Fargo College Card,Food,58.36
+44081,Gas,Wells Fargo College Card,Car,21.55
+44096,Chegg,Wells Fargo College Card,Recurring Payment,14.95
+44097,Costco,Wells Fargo College Card,Food,65.8
+44100,Prime,Wells Fargo College Card,Recurring Payment,7.07
+44110,Costco,Wells Fargo College Card,Food,54.29
+44121,Costco,Wells Fargo College Card,Food,162.64
+44121,Gas,Wells Fargo College Card,Car,18.45
+44126,Chegg,Wells Fargo College Card,Recurring Payment,14.95
+44043,Knife,Discover Card,Utility,58
+44047,Windows,Discover Card,Utility,139
+44068,Cat Protector,Discover Card,Car,160
+44085,G2A,Discover Card,Recreation,22.98
+44112,Amazon,Discover Card,Utility,55.63
+44113,Amazon,Discover Card,Utility,64.95
+44114,G2A,Discover Card,Recreation,5.38
+44139,Cashback,Discover Card,N/A,-37.08
+44139,Correction,Discover Card,N/A,-73.56
+44118,Amazon,Amazon Card,Utility,623.65
+44130,Prime,Amazon Card,Recurring Payment,6.49
