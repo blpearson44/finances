@@ -1,2 +1,4 @@
 data1.json
-__pycache__
+__pycache__/
+transactions.csv
+.DS_Store
