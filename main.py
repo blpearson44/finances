@@ -38,10 +38,12 @@ for x in rows:
 for x in transactions:
     x.printInfo()
 
-# with open(filename, "w") as csvfile:
-#     csvwriter = csv.writer(csvfile)
-#     for row in transactions:
-#         csvwriter.append()
+with open("transaction-deposit.csv", "w") as csvfile:
+    csvwriter = csv.writer(csvfile)
+    rows = []
+    for row in transactions:
+        rows.append(row.__repr__())
+    csvwriter.writerows(rows)
 # Save contents of account objects to json file
-# with open("account-data.json", "w") as f:
-#     json.dump(accounts, f, default=account.transform)
+with open("account-data.json", "w") as f:
+    json.dump(accounts, f, default=account.transform)
