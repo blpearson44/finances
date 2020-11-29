@@ -25,7 +25,7 @@ with open(filename, "r") as csvfile:
     csvreader = csv.reader(csvfile)
     fields = next(csvreader)
     for row in csvreader:
-        rows.append([float(row[0]), row[2], row[3], float(row[4])])
+        rows.append([row[0], row[2], row[3], float(row[4])])
 
 # move transactions into local list
 print(fields)
@@ -38,10 +38,10 @@ for x in rows:
 for x in transactions:
     x.printInfo()
 
-with open(filename, "w") as csvfile:
-    csvwriter = csv.writer(csvfile)
-    for row in transactions:
-        csvwriter.append()
+# with open(filename, "w") as csvfile:
+#     csvwriter = csv.writer(csvfile)
+#     for row in transactions:
+#         csvwriter.append()
 # Save contents of account objects to json file
 # with open("account-data.json", "w") as f:
 #     json.dump(accounts, f, default=account.transform)
